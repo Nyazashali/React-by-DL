@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React ES-6</title>
+</head>
+<body>
+<script>
+    const voters = [
+    {
+        Id: "01",
+        name: "John Doe",
+        age: 32,
+        gender: "Male",
+        hasvoted: true
+    },
+    {
+        Id: "02",
+        name: "Sarah Johnson",
+        age: 27,
+        gender: "Female",
+        hasvoted: false
+    },
+    {
+        Id: "03",
+        name: "Michael Smith",
+        age: 40,
+        gender: "Male",
+        hasvoted: true
+    },
+    {
+        Id: "04",
+        name: "Emily Davis",
+        age: 22,
+        gender: "Female",
+        hasvoted: false
+    },
+    {
+        Id: "05",
+        name: "Robert Brown",
+        age: 55,
+        gender: "Male",
+        hasvoted: true
+    },
+];
+
+voters.forEach(function(voter, index){
+    console.log(voter.Id);
+});
+</script>
+
+</body>
+</html>
