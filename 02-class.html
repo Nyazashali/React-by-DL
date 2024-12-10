@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var voters = [
+    {
+        Id: "01",
+        name: "John Doe",
+        age: 32,
+        gender: "Male",
+        hasvoted: true
+    },
+    {
+        Id: "02",
+        name: "Sarah Johnson",
+        age: 27,
+        gender: "Female",
+        hasvoted: false
+    },
+    {
+        Id: "03",
+        name: "Michael Smith",
+        age: 40,
+        gender: "Male",
+        hasvoted: false
+    },
+    {
+        Id: "04",
+        name: "Emily Davis",
+        age: 22,
+        gender: "Female",
+        hasvoted: false
+    },
+    {
+        Id: "05",
+        name: "Robert Brown",
+        age: 55,
+        gender: "Male",
+        hasvoted: true
+    },
+];
+
+   const voterId= 3;
+   const modifiedvoters= voters.map(function(voter, index){
+      if (voter.Id === voterId){
+        return{...voter, hasvoted:true};
+      }  
+      return voter;
+});
+ 
+     //for loop
+     console.log(modifiedvoters, voters);
+
+     var usernames = ['Dinesh', 'Karthik', 'Lokesh', 'Manoj'];
+     var modifiedUsernames = [];
+     for (let i = 0; i < usernames.length; i++){
+        modifiedUsernames.push(usernames[i].toUpperCase());
+     }
+     console.log(modifiedUsernames);
+
+   //Map Method
+     var usernames = ['Dinesh', 'Karthik', 'Lokesh', 'Manoj'];
+     varmodifiedUsernames = usernames.map(function(username, index){ //Capital U at modifiedUsernames
+        return username.toUpperCase();
+     });
+     console.log(modifiedUsernames); //Capital U
+    </script>
+    
+</body>
+</html>
