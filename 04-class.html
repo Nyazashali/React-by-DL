@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find</title>
+</head>
+<body>
+          <!--Find : filters a particular value based on the condition
+          
+          Syntax : const valur = sourceArray.find(function(value, index){
+          return condition;
+            });----->
+
+
+    <script>
+        var voters = [
+    {
+        Id: "01",
+        name: "John Doe",
+        age: 32,
+        gender: "Male",
+        hasvoted: true
+    },
+    {
+        Id: "02",
+        name: "Sarah Johnson",
+        age: 27,
+        gender: "Female",
+        hasvoted: false
+    },
+    {
+        Id: "03",
+        name: "Michael Smith",
+        age: 40,
+        gender: "Male",
+        hasvoted: true
+    },
+    {
+        Id: "04",
+        name: "Emily Davis",
+        age: 22,
+        gender: "Female",
+        hasvoted: false
+    },
+    {
+        Id: "05",
+        name: "Robert Brown",
+        age: 55,
+        gender: "Male",
+        hasvoted: true
+    },
+];
+
+   const voter = voters.find(function(voter, index) {
+    return voter.name === "Robert Brown";
+   });
+
+   console.log(voter);
+</script>
+ 
+    
+</body>
+</html>
