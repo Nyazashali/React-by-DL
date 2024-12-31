@@ -5,4 +5,9 @@ Reusability - Components - Custom Tag HTML,  CSS & JSL - Navbar, Footer
 
 Routing - SPA Single Page Application.
 Existing component will be replaced with the another instead navigating to another page.
-component is nothing but cuatom Tag
+component is nothing but cuatom Tag.
+
+A key advantage of React is that it only re-renders those parts of the page that have changed,
+ avoiding unnecessary re-rendering of unchanged DOM elements.
+
+//21-12-2024 1:04:30//
