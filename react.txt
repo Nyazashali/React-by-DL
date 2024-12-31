@@ -5,3 +5,4 @@ Reusability - Components - Custom Tag HTML,  CSS & JSL - Navbar, Footer
 
 Routing - SPA Single Page Application.
 Existing component will be replaced with the another instead navigating to another page.
+component is nothing but cuatom Tag
