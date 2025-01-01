@@ -10,4 +10,17 @@ component is nothing but cuatom Tag.
 A key advantage of React is that it only re-renders those parts of the page that have changed,
  avoiding unnecessary re-rendering of unchanged DOM elements.
 
-//21-12-2024 1:04:30//
+React - Displaying the user interfaces by rendering componenets.
+
+Project setup - vite js / Next js
+
+Development enviroments
+
+JSX - Javascript & XML (.JSX0)
+
+Node Js : Javascript Runtime enviroment
+
+npm : node package manager
+
+Package-lock.json - it consists of Package names and versions of the packages which are used by our packages
+Package.json - it consists of Package names and versions of our packages
