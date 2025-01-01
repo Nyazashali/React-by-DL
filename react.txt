@@ -16,11 +16,26 @@ Project setup - vite js / Next js
 
 Development enviroments
 
-JSX - Javascript & XML (.JSX0)
+JSX - Javascript & XML (.JSX0) we writing this in JSX for developer compatability
+and we are converting into normal html & javascript for browser compatability. and for converting we are using react.
 
 Node Js : Javascript Runtime enviroment
 
 npm : node package manager
+
+Creating the react app using vite Js : 
+npm create vite@latest
+> type project name
+> select react
+> Select javascript
+Downloads the react initial application.
+> cd ecommerce-app-ny
+npm install 
+npm run dev
+
+Project structure :
+> node_modules - it has all the packages required for the app (package is nothing but a feature/group of packages/ libraries)
+
 
 Package-lock.json - it consists of Package names and versions of the packages which are used by our packages
 Package.json - it consists of Package names and versions of our packages
