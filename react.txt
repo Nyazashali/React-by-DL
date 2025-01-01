@@ -35,7 +35,9 @@ npm run dev
 
 Project structure :
 > node_modules - it has all the packages required for the app (package is nothing but a feature/group of packages/ libraries)
-
+> public - All the assets
+>src - source code
+>index.html - root html file
 
 Package-lock.json - it consists of Package names and versions of the packages which are used by our packages
 Package.json - it consists of Package names and versions of our packages
