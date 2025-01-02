@@ -41,3 +41,11 @@ Project structure :
 
 Package-lock.json - it consists of Package names and versions of the packages which are used by our packages
 Package.json - it consists of Package names and versions of our packages
+
+///React-componenets
+A React component is a self-contained piece of code that defines a specific part of a user interface.
+React components define what gets displayed on the UI. They accept inputs called props and return React elements describing the UI. 
+Types
+There are two types of components:
+Class components: These components must include the extends React.Component statement and a render() method that returns HTML. 
+Function components: These components can be written using less code, are easier to understand, and are preferred
