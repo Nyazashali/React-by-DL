@@ -10,11 +10,11 @@ function App() {
 
   return (
     <div>
-      <h1 className="text-sky-500">Welcome to react class...</h1>
+      
       <Navbar/>
       <Footer/>
     </div>
-  ) //22-12 50:30:00
+  ) 
 }
 
 export default App
