@@ -1,0 +1,3 @@
+Data Binding : Mapping data available in javascript variables to html elements.
+
+syntax :
