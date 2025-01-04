@@ -1,3 +1,6 @@
 Data Binding : Mapping data available in javascript variables to html elements.
 
 syntax :
+
+
+Event Binding : Communicating from html elements to javascript functions, when event has been raised.
