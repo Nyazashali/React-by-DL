@@ -1,6 +1,15 @@
 Data Binding : Mapping data available in javascript variables to html elements.
 
-syntax :
+syntax : 
+
+function ComponentName(){
+    const companyName = 'Digital-Lync';
+    const studentName = 'Ali';
+    return{
+        <p>company Name: <span>{{ companyName }}</span></P>
+        <p>student Name: <span>{{ studentName }}</span></P>
+    }
+}
 
 
 Event Binding : Communicating from html elements to javascript functions, when event has been raised.
