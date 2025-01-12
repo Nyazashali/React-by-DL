@@ -13,3 +13,4 @@ function ComponentName(){
 
 
 Event Binding : Communicating from html elements to javascript functions, when event has been raised.
+                   every event need to written in camel case
