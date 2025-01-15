@@ -43,6 +43,7 @@ Package-lock.json - it consists of Package names and versions of the packages wh
 Package.json - it consists of Package names and versions of our packages
 
 ///React-componenets
+
 A React component is a self-contained piece of code that defines a specific part of a user interface.
 React components define what gets displayed on the UI. They accept inputs called props and return React elements describing the UI. 
 Types
