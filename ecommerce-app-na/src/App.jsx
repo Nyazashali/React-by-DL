@@ -2,15 +2,20 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
     <>
-      <h1>Welcome</h1>
+      <h1>Welcome to react js </h1>
+
+      <Navbar/>
+      <Footer/>
+
     </>
   )
 }
 
-export default App
+export default App  //22-12-2024 41:36

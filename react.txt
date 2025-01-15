@@ -51,3 +51,22 @@ Types
 >Class components: These components must include the extends React.Component statement and a render() method that returns HTML. 
 >Function components: These components can be written using less code, are easier to understand, and are preferred.
 
+syntax: 
+
+function componentName(props){
+          variables
+          anonymous functions..
+          return (
+            <div>
+
+            </div>
+          )
+    };
+
+    export default componentName; - Export function from current file to another file.
+
+    import componentName from 'relativePathFile'; - Import file from another file to current file.
+
+    <ComponentName/> - Componenet is nothing but custom tag
+
+    componentName - should be Pascal case
