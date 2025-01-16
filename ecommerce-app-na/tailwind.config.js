@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   content: [
     './src/**/*.{js,jsx}',  //Adjust this based on the project structure
   ],

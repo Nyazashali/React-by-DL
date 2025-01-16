@@ -73,3 +73,9 @@ function componentName(props){
 
     Install Tailwind Css in React
     > npm install -D tailwindcss postcss
+    > npx tailwindcss init 
+
+    tailwindcss is categorised in 3 parts 
+    base;
+    components;
+    utilities;
