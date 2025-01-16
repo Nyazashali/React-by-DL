@@ -79,3 +79,6 @@ function componentName(props){
     base;
     components;
     utilities;
+
+class replace className
+all properties should be in camel case no (-)
