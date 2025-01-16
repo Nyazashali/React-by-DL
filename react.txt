@@ -70,3 +70,6 @@ function componentName(props){
     <ComponentName/> - Componenet is nothing but custom tag
 
     componentName - should be Pascal case
+
+    Install Tailwind Css in React
+    > npm install -D tailwindcss postcss
