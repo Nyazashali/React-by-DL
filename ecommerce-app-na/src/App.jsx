@@ -3,17 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar';
+import Home from './views/Home';
+import DeployFaster from './components/DeployFaster';
 import Footer from './components/Footer';
 
 function App() {
  
   return (
     <div>
-      <h1 className='text-sky-500 text-2xl font-bold m-4'>Welcome to react js</h1>
-
       <Navbar/>
+      <Home/>
+      <DeployFaster/>
       <Footer/>
-
     </div>
   )
 }
