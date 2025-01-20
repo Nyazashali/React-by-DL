@@ -23,3 +23,12 @@ Event Binding : Communicating from html elements to javascript functions, when e
     <div>
     </div>
    )}            
+   return [
+        <div className="container mx-auto">
+            {products.map((product, index) => (
+                         
+                       
+                </div>
+            ))}
+        </div>
+    ]
