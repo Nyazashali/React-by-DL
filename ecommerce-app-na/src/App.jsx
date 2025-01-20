@@ -4,8 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar';
 import Home from './views/Home';
-import DeployFaster from './components/DeployFaster';
 import Products from './views/Products';
+import DeployFaster from './components/DeployFaster';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <div>
       <Navbar/>
       <Home/>
-      <DeployFaster/>
       <Products/>
+      <DeployFaster/>
       <Footer/>
     </div>
   )

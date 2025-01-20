@@ -14,3 +14,12 @@ function ComponentName(){
 
 Event Binding : Communicating from html elements to javascript functions, when event has been raised.
                  every event need to written in camel case
+
+   ///02-01-2025//
+   Map Method: it is used to iterate html elements for no. of values present in array. 
+
+   syntax: 
+   {arrayName.map(currentValue, index) => (
+    <div>
+    </div>
+   )}            
