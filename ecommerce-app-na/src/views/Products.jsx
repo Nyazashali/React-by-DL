@@ -168,6 +168,7 @@ function Products() {
                         <li>{product.specifications[2]}</li>
                         <li>{product.specifications[3]}</li>
                         <li>{product.specifications[4]}</li>
+                        <li>{product.specifications[5]}</li>
                     </ul>
                     </div>
                  </div>
