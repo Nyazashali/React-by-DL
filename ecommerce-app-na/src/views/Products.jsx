@@ -75,76 +75,7 @@ function Products() {
                     '1 year warranty for phone and 1 year warranty for in Box Accessories.'
                 ]
             },
-            {
-                id: 6,
-                name: 'Apple iPhone 15 Plus (Black, 128 GB)',
-                price: '₹63,999',
-                discount: '19% off',
-                imgSrc: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70',
-                specifications: [
-                    '128 GB ROM',
-                    '17.02 cm (6.7 inch) Super Retina XDR Display',
-                    '48MP + 12MP | 12MP Front Camera',
-                    'A16 Bionic Chip, 6 Core Processor Processor',
-                    '1 year warranty for phone and 1 year warranty for in Box Accessories.'
-                ]
-            },
-            {
-                id: 7,
-                name: 'Apple iPhone 15 Plus (Black, 128 GB)',
-                price: '₹63,999',
-                discount: '19% off',
-                imgSrc: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70',
-                specifications: [
-                    '128 GB ROM',
-                    '17.02 cm (6.7 inch) Super Retina XDR Display',
-                    '48MP + 12MP | 12MP Front Camera',
-                    'A16 Bionic Chip, 6 Core Processor Processor',
-                    '1 year warranty for phone and 1 year warranty for in Box Accessories.'
-                ]
-            },
-            {
-                id: 8,
-                name: 'Apple iPhone 15 Plus (Black, 128 GB)',
-                price: '₹63,999',
-                discount: '19% off',
-                imgSrc: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70',
-                specifications: [
-                    '128 GB ROM',
-                    '17.02 cm (6.7 inch) Super Retina XDR Display',
-                    '48MP + 12MP | 12MP Front Camera',
-                    'A16 Bionic Chip, 6 Core Processor Processor',
-                    '1 year warranty for phone and 1 year warranty for in Box Accessories.'
-                ]
-            },
-            {
-                id: 9,
-                name: 'Apple iPhone 15 Plus (Black, 128 GB)',
-                price: '₹63,999',
-                discount: '19% off',
-                imgSrc: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70',
-                specifications: [
-                    '128 GB ROM',
-                    '17.02 cm (6.7 inch) Super Retina XDR Display',
-                    '48MP + 12MP | 12MP Front Camera',
-                    'A16 Bionic Chip, 6 Core Processor Processor',
-                    '1 year warranty for phone and 1 year warranty for in Box Accessories.'
-                ]
-            },
-            {
-                id: 10,
-                name: 'Apple iPhone 15 Plus (Black, 128 GB)',
-                price: '₹63,999',
-                discount: '19% off',
-                imgSrc: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70',
-                specifications: [
-                    '128 GB ROM',
-                    '17.02 cm (6.7 inch) Super Retina XDR Display',
-                    '48MP + 12MP | 12MP Front Camera',
-                    'A16 Bionic Chip, 6 Core Processor Processor',
-                    '1 year warranty for phone and 1 year warranty for in Box Accessories.'
-                ]
-            }
+           
     ]; 
 
 
@@ -154,7 +85,7 @@ function Products() {
                 <div className="flex justify-around py-4 border-b-2 my-4">
                        {/* Image Section */}
                        <div className="flex justify-center w-1/4">
-                       <img src={product.imgsrc} alt={product.name} className="h-64" />
+                       <img src={product.imgSrc} alt={product.name} className="h-64" />
                     </div>
                  {/* Name section */}
 
