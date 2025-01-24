@@ -32,3 +32,35 @@ Event Binding : Communicating from html elements to javascript functions, when e
             ))}
         </div>
     ]
+
+Ternary Operator
+
+syntax:
+
+{condition ? true statement : false statement}
+
+Props (Properties) : Sharing data between parent and child componenets
+
+Syntax:
+
+Parent Component:
+
+function ParentComponent() {
+    return(
+        <div>
+        
+        </div>
+    )
+}
+
+Child Component:
+
+function ChildComponent() {
+    return(
+        <div>
+        
+        </div>
+    )
+}
+
+props is an empty object by default - Whatever the attributes passed in cild Component tag are converted into key valuesin the props object.
