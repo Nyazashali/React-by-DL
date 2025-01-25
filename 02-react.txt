@@ -63,4 +63,8 @@ function ChildComponent() {
     )
 }
 
-props is an empty object by default - Whatever the attributes passed in cild Component tag are converted into key valuesin the props object.
+props: is an empty object by default - Whatever the attributes passed in child Component tag are converted into key values in the props object.
+
+ Parent to child component - string, number, object, array & boolean
+
+ child to parent component - function
