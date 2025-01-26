@@ -5,17 +5,18 @@ import './App.css'
 import Navbar from './components/Navbar';
 import Home from './views/Home';
 import Products from './views/Products';
-import DeployFaster from './components/DeployFaster';
 import Footer from './components/Footer';
+import Orders from './views/Orders';
 
 function App() {
  
   return (
     <div>
       <Navbar/>
-      <Home/>
-      <Products/>
-      <DeployFaster/>
+      <Orders/>
+      {/* <Home/>
+      <Products/>*/}
+        
       <Footer/>
     </div>
   )
