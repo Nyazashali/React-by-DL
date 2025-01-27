@@ -1,0 +1,17 @@
+React Hooks - functions
+useState - function that allows developers to add state to functional components.
+its a React hoot that lets developers declare and manage state variables directly within a function component
+
+Note: When value of a use state variable is changed automatically whole component will be rerendered and latest values will be mapped to DOM HTML Elements.
+
+Syntax: 
+
+import { useState } from 'react';
+
+const {state, updateStatus} = useState(initialValue);
+
+state - Returns current value of a variable.
+
+updateStatus - Function, which is used to update value of a variable.
+
+initialValue - Intial Value of a variable.
