@@ -15,3 +15,38 @@ state - Returns current value of a variable.
 updateStatus - Function, which is used to update value of a variable.
 
 initialValue - Intial Value of a variable.
+
+## Styling Functional components
+
+1. Inline styles with JSX
+2. CSS Modules for local styles
+3. CSS-In-JS libraries (tailwind)
+
+1. Inline styles with JSX
+
+syntax: 
+
+<h3 syle={{backgroundColor: 'red', color: 'white', padding: '20px'}}></h3>
+
+Alternate way 
+
+const styles = {
+    backgroundColor: 'red',
+    color: 'white',
+    padding: '20px'
+};
+
+<h3 style{styles}></h3>
+
+2. CSS Modules for local styles
+
+styles.CSS
+
+selector {
+    background-color: 'red';
+    color: 'white';
+}
+ To import css file in JSX
+ import 'relativePathOfCssFile';
+
+04-01-2025 31:00

@@ -4,7 +4,7 @@ function Order(props) {
     return (
         <div className="shadow p-4 bg-gray-100">
             <div> 
-                <h2>OrderId: <span>{order.orderId}</span></h2>
+                <h2>OrderId: <span className="font-bold" style={{color: 'blue'}}>{order.orderId}</span></h2>
             </div>
             <div>
                 <h2>CustomerName: <span>{order.customerName}</span></h2>
