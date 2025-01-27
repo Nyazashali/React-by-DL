@@ -68,3 +68,6 @@ props: is an empty object by default - Whatever the attributes passed in child C
  Parent to child component - string, number, object, array & boolean
 
  child to parent component - function
+
+ 03-01-2025
+ 
