@@ -1,8 +1,9 @@
 React Hooks - functions
-useState - function that allows developers to add state to functional components.
-its a React hoot that lets developers declare and manage state variables directly within a function component
 
-Note: When value of a use state variable is changed automatically whole component will be rerendered and latest values will be mapped to DOM HTML Elements.
+#useState - function that allows developers to add state to functional components.
+its a React hook that lets developers declare and manage state variables directly within a function component
+
+Note: When value of a use state variable is changed, automatically whole component will be rerendered and latest values will be mapped to DOM HTML Elements.
 
 Syntax: 
 
@@ -49,4 +50,24 @@ selector {
  To import css file in JSX
  import 'relativePathOfCssFile';
 
-04-01-2025 31:00
+#useEffect:
+It is a tool that allows you to perform side effects in functional components.
+Side effects can include Fetching data, updating the DOM, using timers
+
+Syntax: 
+import { useEffect } from 'react';
+
+function ComponentName() {
+
+    useEffect(callbackFunc, dependancyArray);
+
+    return (
+
+    )
+}
+
+callbackFunc & dependancyArray -
+
+useEffect(() => {
+
+}, [dependancy1, dependancy2, ...., dependancyN]);
