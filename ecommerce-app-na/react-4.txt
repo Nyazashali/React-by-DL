@@ -1,0 +1,6 @@
+React Routing: Hepls us in navigating from route to another route.
+
+SPA - Single Page Application
+ 
+ Using this routing, app will not rload when we navigate from one route to another route.
+ 
