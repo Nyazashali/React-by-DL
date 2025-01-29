@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 function Products() {
     const products = [
         
@@ -78,10 +80,14 @@ function Products() {
            
     ]; 
 
+   const [searchString, setSearchString] = useState('');
+
+   
 
     return [
         <div className="container mx-auto">
             {products.map((product, index) => (
+                                  
                 <div className="flex justify-around py-4 border-b-2 my-4">
                        {/* Image Section */}
                        <div className="flex justify-center w-1/4">
@@ -105,6 +111,7 @@ function Products() {
                  </div>
                        
                 </div>
+                
             ))}
         </div>
     ]
