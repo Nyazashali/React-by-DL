@@ -80,7 +80,6 @@ function Products() {
            
     ]; 
 
-   const [searchString, setSearchString] = useState('');
 
    
 

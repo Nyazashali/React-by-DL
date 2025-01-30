@@ -1,6 +1,54 @@
 React Routing: Hepls us in navigating from route to another route.
 
-SPA - Single Page Application
+SPA - Single Page Application - index.html
+
+it has 2 attribute one is Path & another is elemnet
+
+HTML5 - History API - Stores user navigation
  
- Using this routing, app will not rload when we navigate from one route to another route.
+ Using this routing, app will not reload when we navigate from one route to another route.
  
+ Installation :
+
+  npm install react-router-DOM
+
+  setting up routing:
+
+  main.jsx
+
+  import { BrowerRouter } from 'react-router-dom';
+
+  createRoot(document.getElementById('root')).render(
+  <StrictMode>
+  <BrowerRouter>
+    <App />
+    </BrowerRouter>
+  </StrictMode>,
+  )
+
+  App.jsx
+  import { Routes, Route } from 'react-router-dom';
+
+  return (
+    <div>
+      <Navbar/>
+      <Routes>
+
+
+      <Route path="/routeName" elemnet="{<ComponentName/>}"> - Main Route
+
+      <Route path="routeName" elemnet="{<ComponentName/>}"></Route>   - Nested Route / Sub-Route
+      <Route path="routeName" elemnet="{<ComponentName/>}"></Route>
+      <Route path="routeName" elemnet="{<ComponentName/>}"></Route>
+
+      </Route>
+
+      <Route path="/routeName" elemnet={<ComponentName/>}></Route>
+      <Route path="/routeName" elemnet={<ComponentName/>}></Route>
+      <Route path="/routeName" elemnet={<ComponentName/>}></Route>
+      
+
+      </Routes>
+      <Footer/>
+    </div>
+  )
