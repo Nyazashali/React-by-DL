@@ -52,3 +52,11 @@ HTML5 - History API - Stores user navigation
       <Footer/>
     </div>
   )
+
+  > Link - Helps us in navigating from one route to another route
+
+  import { Link } from 'react-route-dom';
+
+  <Link to="/routeName">Page Name</Link>
+
+  08-1-2025

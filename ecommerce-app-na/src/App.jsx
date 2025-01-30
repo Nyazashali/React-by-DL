@@ -6,6 +6,11 @@ import Home from './views/Home';
 import Products from './views/Products';
 import Footer from './components/Footer';
 import Orders from './views/Orders';
+import Installation from './views/Installation';
+import StartANewReact from './views/Installation/StartANewReact';
+import AddReactToExistingProject from './views/Installation/AddReactAExisting';
+import EditorSetup from './views/Installation/EditorSetup';
+import UsingTypeScript from './views/Installation/UsingTypeScript';
 
 function App() {
  
@@ -13,9 +18,15 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>} /> 
+        <Route path="/" element={<Home/>} />
         <Route path="/orders" element={<Orders/>} />
         <Route path="/products" element={<Products/>} />
+        <Route path="/installation" element={<Installation/>}>
+        <Route path="start-a-new-react" element={<StartANewReact/>}></Route>
+        <Route path="add-react-to-existing-project" element={<AddReactToExistingProject/>}></Route>
+        <Route path="editor-setup" element={<EditorSetup/>}></Route>
+        <Route path="using-typescript" element={<UsingTypeScript/>}></Route>
+        </Route>
       </Routes>
     
       <Footer/>
@@ -23,4 +34,4 @@ function App() {
   )
 }
 
-export default App  //22-12-2024 01-02-00
+export default App  
