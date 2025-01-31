@@ -1,0 +1,20 @@
+Passing the data between the routes.
+
+1. Route Parameter - This is preferred to use for less no. og parameters
+2. Query Parameter -  This is preferred to use for more no. of parameters
+
+
+https://localhost:3000/routeName/routeParamValue1/routeParamValue2?queryParm1=value1&queryParm2=routeParamValue2
+
+
+routeName/routeParamValue1/routeParamValue2 - Route Parameter
+?queryParm1=value1&queryParm2=routeParamValue2 - Query Parameter
+
+> To retrieve parameters from the url
+
+import { useParams, useSearchParams } from 'react-route-dom';
+
+useParams - To retrieve data from route parameters
+useSearchParams - to retrieve data from query parameters
+
+30:00:00
