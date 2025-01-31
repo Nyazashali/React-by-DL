@@ -97,7 +97,7 @@ function Products() {
 
                  <div className="flex justify-center w-2/4">
                  <div>
-                    <h1 className="text-center text-lg font-bold text-blue-500 cursor-pointer hover:underline"><Link to={`/product-details/${product.id}`}>{product.name}</Link></h1>
+                    <h1 className="text-center text-lg font-bold text-blue-500 cursor-pointer hover:underline"><Link to={`/product-details/${product.id}/${product.name}?price=${product.price}`}>{product.name}</Link></h1>
 
                     <ul className="mt-2">
                         <li>{product.specifications[0]}</li>

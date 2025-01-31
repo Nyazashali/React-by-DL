@@ -1,6 +1,6 @@
 Passing the data between the routes.
 
-1. Route Parameter - This is preferred to use for less no. og parameters
+1. Route Parameter - This is preferred to use for less no. of parameters
 2. Query Parameter -  This is preferred to use for more no. of parameters
 
 
@@ -17,4 +17,14 @@ import { useParams, useSearchParams } from 'react-route-dom';
 useParams - To retrieve data from route parameters
 useSearchParams - to retrieve data from query parameters
 
-30:00:00
+Syntax:
+ 
+ import { useParams, useSearchParams } from 'react-router-dom';
+
+ function ComponentName() {
+    const params = useParams();
+
+    params - object
+
+    const [searchParams, setSearchParams] = useSearchParams();
+ }
