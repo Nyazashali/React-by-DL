@@ -12,6 +12,8 @@ import AddReactToExistingProject from './views/Installation/AddReactAExisting';
 import EditorSetup from './views/Installation/EditorSetup';
 import UsingTypeScript from './views/Installation/UsingTypeScript';
 import ProductDetails from './views/ProductsDetails';
+import Register from './views/Register';
+import Login from './views/Login';
 
 function App() {
  
@@ -24,8 +26,10 @@ function App() {
         <Route path="/products" element={<Products/>}>
         <Route path="/products-details/:productId/:productName/:productPrice" element={<ProductDetails/>}></Route>
         </Route>
+        <Route path='/register' element={<Register/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
         <Route path="/installation" element={<Installation/>}>
-
+      
         <Route path="start-a-new-react" element={<StartANewReact/>}></Route>
         <Route path="add-react-to-existing-project" element={<AddReactToExistingProject/>}></Route>
         <Route path="editor-setup" element={<EditorSetup/>}></Route>

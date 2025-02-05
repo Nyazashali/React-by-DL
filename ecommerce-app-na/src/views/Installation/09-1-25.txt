@@ -15,7 +15,20 @@ import { useForm } from 'react-hook-form';
 
 function ComponentName() {
     const { register, handSubmit, formState:{ errors }, watch } = useForm();
+         
+         const functionName = (formValues) => {
 
+         };
+
+   return(
+    <form onSubmit={handleSubmit(functionName)}>
+    <div>
+     <label>Form feild Name:</label>
+     <input type="text" {...register(formFieldName)} name="formFieldName" />
+    </div>
+
+    </form>
+   )
 }
 
 return{
@@ -32,3 +45,5 @@ return{
 > formState - Returns the current status of the form
 > errors - Returns error state of the form
 > watch - Returns current value of a form feild
+
+10--1-2025
