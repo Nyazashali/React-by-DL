@@ -1,0 +1,34 @@
+Forms and Form Handling
+Building controlled forms with functional componenets
+Handling form submissions and user inputsvalidating form data and displaying errors
+
+
+React Hoot Form - Third party libraries which helps us un handling form and its validations.
+
+Installation: 
+
+npm install react-hook-form
+
+Implementation:
+
+import { useForm } from 'react-hook-form';
+
+function ComponentName() {
+    const { register, handSubmit, formState:{ errors }, watch } = useForm();
+
+}
+
+return{
+    register:
+    handleSubmit:
+    formState:{
+        error: {}
+    },
+    watch
+}
+
+> register - Registers the form feilds
+> handleSubmut - Submits the forms and calls the function when form is valid. if the form is invalid it shows error messages.
+> formState - Returns the current status of the form
+> errors - Returns error state of the form
+> watch - Returns current value of a form feild
