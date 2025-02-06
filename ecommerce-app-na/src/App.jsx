@@ -14,6 +14,7 @@ import UsingTypeScript from './views/Installation/UsingTypeScript';
 import ProductDetails from './views/ProductsDetails';
 import Register from './views/Register';
 import Login from './views/Login';
+import axios from 'axios';
 
 function App() {
  

@@ -1,0 +1,23 @@
+Axios - Axios is a promise-based HTTP Client for node.js and the browser.
+ It is isomorphic (= it can run in the browser and nodejs with the same codebase). 
+On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests
+
+it is a alternate concept fot fetch
+
+Installation:
+
+npm install Axios
+
+usage:
+
+import axios from 'axios';
+
+try {
+    const response = await axios.get(url);
+    const response = await axios.post(url, payload);
+    const response = await axios.put(url, payload);
+    const response = await axios.delete(url);
+
+} catch(error) {
+    
+}
