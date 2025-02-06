@@ -21,3 +21,8 @@ try {
 } catch(error) {
     
 }
+
+npm react toastify
+allows you to add notifications to your app with ease
+
+syntax:
