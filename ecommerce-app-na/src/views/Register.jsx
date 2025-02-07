@@ -4,12 +4,15 @@ import { useForm } from 'react-hook-form';
  function Register() {
     const { register, handleSubmit, formState: { errors }, watch } = useForm();
     const passwordValue = watch('password');
-    const registerUser = (formValues) => {
 
+    const registerUser = async (formValues) => {
+     try {
+      const response = await axios.post('', formValues);
 
-      useEffect(() => {
-        console.log(passwordValue);
-      }, [passwordValue]);
+     } catch(error){
+      
+     }
+
     };
      return(
         <div className="flex min-h-full flex-col justify-center px-6 py-8 lg:px-8">
