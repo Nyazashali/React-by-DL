@@ -1,0 +1,23 @@
+React Hooks:
+1. useState
+2. useEffect
+3. useContext
+
+
+
+> the process of passing data down through multiple layers of components in React.
+ It's a common way to share data between components. 
+
+> Context provides a way to pass data through the component tree without having to pass props down manually at every level
+
+Why not to use prop drilling? 
+>Code Complexity: As components grow, prop drilling increases code complexity as it is difficult to track the flow of data through various components. 
+>Reduced Maintainability: It will become very challenging to maintain the code with prop drilling
+
+Props Drilling is good for simpler apps or when you want clear data flow. Context API is better for big apps 
+where you want to manage state across many components easily.
+
+> To overcome props drilling, we use context API.
+
+
+30:00:00
