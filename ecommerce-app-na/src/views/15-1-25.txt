@@ -20,4 +20,27 @@ where you want to manage state across many components easily.
 > To overcome props drilling, we use context API.
 
 
-30:00:00
+Services/ContextServices.js
+
+import { createContext } from 'react';
+
+  const contextInstance = createContext(initialValue);
+
+  export default contextInstance;
+
+  provider: Provides the information from context instance to Consumer
+  Consumer: Consumes the information provided by provider.
+
+ParentComponent.jsx
+
+import ContextInstance from 'relativePathofService';
+
+function ParentComponent() {
+    return(
+        <ContextInstance.Provider value={{ key: value,key: value, }}>
+           <ChildComponent/>
+        </ContextInstance.Provider>
+    )
+}
+
+ChildComponent.jsx
