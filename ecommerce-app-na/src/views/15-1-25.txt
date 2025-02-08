@@ -44,3 +44,14 @@ function ParentComponent() {
 }
 
 ChildComponent.jsx
+
+import ContextInstance from 'relativePathofService';
+
+import { useContext } from 'react';
+
+function ChildComponent() {
+
+  const data = useContext(ContextInstance);
+}
+
+01:01:00
