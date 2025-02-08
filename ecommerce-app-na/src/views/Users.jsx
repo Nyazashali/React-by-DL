@@ -1,5 +1,6 @@
 import ContextInstance from "../Services/ContextServices";
 import { useState } from "react";
+import User from "../components/Users/User";
 
 function Users() {
     const[ users, setUsers ] = useState([
@@ -68,10 +69,14 @@ function Users() {
  return(
    
    <div>
-     <h2 className="text-2xl">Users</h2>
-       <ContextInstance.Provider>
+     <h2 className="text-2xl text-center">Users</h2>
+     <ContextInstance.Provider value={{ users }}>
+  {users.map(user => (
+    <User key={user.id} user={user} />
+  ))}
+</ContextInstance.Provider>
 
-       </ContextInstance.Provider>
+       
     </div>
  )
 

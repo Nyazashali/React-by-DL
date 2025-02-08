@@ -14,7 +14,8 @@ import UsingTypeScript from './views/Installation/UsingTypeScript';
 import ProductDetails from './views/ProductsDetails';
 import Register from './views/Register';
 import Login from './views/Login';
-import axios from 'axios';
+import User from './views/Users';
+import Users from './views/Users';
 
 function App() {
  
@@ -37,6 +38,8 @@ function App() {
         <Route path="using-typescript" element={<UsingTypeScript/>}></Route>
 
         </Route>
+
+        <Route path="/users" element={<Users/>}></Route>
       </Routes>
     
       <Footer/>
