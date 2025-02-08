@@ -70,12 +70,13 @@ function Users() {
    
    <div>
      <h2 className="text-2xl text-center">Users</h2>
-     <ContextInstance.Provider value={{ users }}>
-  {users.map(user => (
-    <User key={user.id} user={user} />
+     <ContextInstance.Provider value={{}}>
+        <div className="flex flex-wrap">
+        {users.map(user => (
+    <User user={user} />
   ))}
+        </div>
 </ContextInstance.Provider>
-
        
     </div>
  )
