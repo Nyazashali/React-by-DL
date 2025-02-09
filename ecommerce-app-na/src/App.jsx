@@ -1,27 +1,30 @@
-import { useState } from 'react'
+import { lazy, useState } from 'react'
+import { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar';
 import Home from './views/Home';
-import Products from './views/Products';
 import Footer from './components/Footer';
-import Orders from './views/Orders';
-import Installation from './views/Installation';
+const Products = lazy(() => import ('./views/Products'));
+const Orders = lazy(() => import ('./views/Orders'));
+const Installation = lazy(() => import('./views/Installation'));
+const ProductDetails = lazy(() => import ('./views/ProductsDetails'));
+const Register = lazy(() => import ('./views/Register'));
+const Login = lazy(() => import ('./views/Login'));
+const User = lazy(() => import ('./views/Users'));
+const Users = lazy(() => import ('./views/Users'));
 import StartANewReact from './views/Installation/StartANewReact';
 import AddReactToExistingProject from './views/Installation/AddReactAExisting';
 import EditorSetup from './views/Installation/EditorSetup';
 import UsingTypeScript from './views/Installation/UsingTypeScript';
-import ProductDetails from './views/ProductsDetails';
-import Register from './views/Register';
-import Login from './views/Login';
-import User from './views/Users';
-import Users from './views/Users';
+
 
 function App() {
  
   return (
     <div>
       <Navbar/>
+      <Suspense fallback={<div><h1>Loading......</h1></div>}>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/orders" element={<Orders/>} />
@@ -41,10 +44,10 @@ function App() {
 
         <Route path="/users" element={<Users/>}></Route>
       </Routes>
-    
+        </Suspense>    
       <Footer/>
     </div>
   )
-}
+};
 
 export default App  
