@@ -1,11 +1,11 @@
 Code splitting and lazy loading with React Suspence
 
-#Code splitting - Code Splitting is a method that helps to generate bundles that are able to run dynamically. It also helps to make the code efficient.
-
-Code splitting is the practice of splitting the code a web application depends on — including 
+#Code splitting - Code Splitting is a method that helps to generate bundles that are able to run dynamically.
+It also helps to make the code efficient. 
+Code splitting is the practice of splitting the code of a web application depends on — including 
 its own code and any third-party dependencies — into separate bundles that can be loaded independently of each other
 
-#Lazy lodaing - used to initially load and render limited data on the webpage.
+#Lazy loading - used to initially load and render limited data on the webpage.
  It helps to optimize the performance of React applications. 
 The data is only rendered when visited or scrolled it can be images, scripts, etc.
 
@@ -18,7 +18,13 @@ Syntax:
  <ComponentName/>
  </Suspence>
 
- Recat State Management
+ React State Management
 
- Redux toolkit - 
+ Redux toolkit - it is a collection of tools and libraries that help simplify the process of developing Redux applications.
+ > Simplifies the configuration of a store
+ > Reduces the need for boilerplate code
+ > Helps prevent common mistakes
+ > Makes it easier to manage state
+ > Helps handle side effects
+ > Optimizes performance
  
