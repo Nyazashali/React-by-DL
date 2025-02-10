@@ -1,0 +1,13 @@
+Installation:
+
+npm install @reduxjs/toolkit
+npm install react-redux
+
+Redux Store - 
+
+
+
+
+Slice is nothing but a feature
+
+47:00
