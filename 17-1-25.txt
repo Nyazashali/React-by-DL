@@ -23,6 +23,7 @@ Syntax:
  Redux toolkit - it is a collection of tools and libraries that help simplify the process of developing Redux applications.
  > Simplifies the configuration of a store
  > Reduces the need for boilerplate code
+    #Boilerplate code is a section of code that can be reused in multiple projects or parts of the same project
  > Helps prevent common mistakes
  > Makes it easier to manage state
  > Helps handle side effects
