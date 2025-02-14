@@ -10,4 +10,10 @@ Redux Store -
 
 Slice is nothing but a feature
 
-47:00
+useDispatch -  Used to raise action from component to Slice
+import {useDispatch} from 'react-redux';
+
+useSelector - Pass infromation from store to component
+
+
+
