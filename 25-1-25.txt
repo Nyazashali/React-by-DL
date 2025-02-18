@@ -1,0 +1,30 @@
+Asynchronous Reduxjs toolkit
+
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
+
+const functionName = createAsyncThunk(actionName, callbackFunc);
+
+const getUserById = createAsyncThunk('users/getUserById', () => {
+    try {
+        const response = await axios.get(url);
+        return response.data;
+    } catch(error) {
+
+    }
+});
+
+const sliceName = createSlice({
+    name: '',
+    initialState: {
+        data: []
+    },
+    reducers: {
+
+    },
+    extraReducers: (builders) => {
+        builder.addCase(getUserById.fullfilled, (state, action) => {
+            state.data = action.payload;
+        })
+    }
+})
