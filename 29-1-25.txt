@@ -1,0 +1,8 @@
+KRIS HRMS (Human Resource Management System)
+
+Types of Users
+1. Admin (Hr's)
+2. User (Employee's)
+
+Admin Section
+> Login (Email & Password) ->

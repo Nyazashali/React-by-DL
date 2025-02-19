@@ -3,5 +3,3 @@ Next.js: Used by some of the world's largest companies,
 
 npx create-next-app@latest
 
-
-//32:00
