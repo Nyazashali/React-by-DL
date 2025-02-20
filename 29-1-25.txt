@@ -5,4 +5,5 @@ Types of Users
 2. User (Employee's)
 
 Admin Section
-> Login (Email & Password) ->
+> Login (Email & Password) => Dashboard -> Side Navbar, 
+
